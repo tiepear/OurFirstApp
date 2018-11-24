@@ -10,6 +10,12 @@ import UIKit
 
 class inputViewViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var input: UITextField!
+    //let inputText:String = input.text!
+    @IBAction func Back(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
